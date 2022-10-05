@@ -1,7 +1,7 @@
 {-# OPTIONS_GHC -Wno-incomplete-patterns #-}
 import System.IO ()
 import System.Directory ( renameFile ) 
---import qualified System.IO.Strict as SIO
+--import qualified System.IO.Strict as SIO 
 data Question = Question{
                         vupros :: String ,
                         ansYes :: Question,
